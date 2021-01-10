@@ -1,0 +1,97 @@
+* {
+  padding: 20px;
+  outline: none;
+}
+
+.leads_table {
+  padding: 0;
+  margin: 0;
+}
+
+.leads_table_head {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.leads_table_row {
+  background-color: rgb(177, 177, 177);
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.add_lead_form {
+  height: 500px;
+  width: 700px;
+  display: none;
+  flex-direction: column;
+  padding: 0;
+  position: absolute;
+  top: 90px;
+  left: 220px;
+  background-color: #fff;
+  border: 2px solid red;
+}
+
+.show_pop_up {
+  display: flex;
+}
+
+.add_lead_form h1 {
+  margin: 0;
+  background-color: #000;
+  color: white;
+}
+
+.required {
+  color: red;
+}
+
+.form_inputs {
+  padding: 0;
+  margin-left: 20px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 44px 50px 44px 50px 44px 50px;
+}
+
+.add_lead_form input {
+  padding: 0;
+  width: 300px;
+}
+
+#location_type {
+  width: 300px;
+  padding: 0;
+}
+
+.add_lead_form label {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.form_btns {
+  align-self: flex-end;
+}
+
+.close_btn {
+  width: 100px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+}
+
+.add_lead_btn {
+  width: 100px;
+  background-color: rgb(161, 161, 161);
+  transition: all 1s;
+}
+
+.show_lead_btn {
+  background-color: black;
+  transition: all 1s;
+}
